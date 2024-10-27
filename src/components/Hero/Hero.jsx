@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import carPng from "../../assets/car.png";
+// import carPng from "../../assets/car.png";
 import exuator from "../../assets/exuaPort.png";
 import AOS from "aos";
 
@@ -24,7 +24,7 @@ const Hero = ({ theme }) => {
             />
           </div>
           <div className="space-y-5 order-2 sm:order-1 sm:pr-32 ">
-            <p data-aos="fade-up" className="text-primary text-2xl font-serif">
+            <p data-aos="fade-up" className="text-[#EA9F00] text-2xl font-serif">
               Effortless
             </p>
             <h1

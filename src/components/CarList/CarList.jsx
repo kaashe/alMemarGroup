@@ -1,24 +1,39 @@
 import React from "react";
-import whiteCar from "../../assets/white-car.png";
+// import whiteCar from "../../assets/white-car.png"  ;
 import Zee1 from "../../assets/zee1.jpg";
-
+import Jcb from "../../assets/jcb.png";
+import crane from "../../assets/crane.png";
+import excuator from "../../assets/excuator.jpg";
+import clipart from "../../assets/belduz.png";
 const carList = [
   {
-    name: "BMW UX",
+    name: "JCB & Telehandler",
     price: 100,
-    image: Zee1,
+    image: Jcb,
     aosDelay: "0",
   },
   {
-    name: "KIA UX",
+    name: "Crane",
     price: 140,
-    image: Zee1,
+    image: crane,
     aosDelay: "500",
   },
   {
-    name: "BMW UX",
+    name: "Dumper Truck",
     price: 100,
     image: Zee1,
+    aosDelay: "1000",
+  },
+  {
+    name: "Excuator",
+    price: 100,
+    image: excuator,
+    aosDelay: "1000",
+  },
+  {
+    name: "Clipart",
+    price: 100,
+    image: clipart,
     aosDelay: "1000",
   },
 ];
@@ -32,41 +47,41 @@ const CarList = () => {
           data-aos="fade-up"
           className="text-3xl sm:text-4xl font-semibold font-serif mb-3"
         >
-          Lorem ipsum dolor
+          What we offer
         </h1>
         <p data-aos="fade-up" aos-delay="400" className="text-sm pb-10">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure
-          nemo ab?
+          Our comprehensive range of heavy machinery and skilled operators is tailored to meet the demands of any construction project, from earthmoving to demolition. We prioritize reliability, safety, and efficiency to ensure your project runs smoothly from start to finish.
         </p>
-        {/* Car listing */}
         <div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-16">
-            {carList.map((data) => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            {carList.map((data, index) => (
               <div
+                key={index}
                 data-aos="fade-up"
                 data-aos-delay={data.aosDelay}
-                className="space-y-3 border-2 border-gray-300 hover:border-primary p-3 rounded-xl relative group"
+                className="border border-gray-300 hover:border-primary p-4 rounded-xl shadow-lg group transition duration-300"
               >
-                <div className="w-full h-[120px]">
+                {/* Image Section */}
+                <div className="w-full h-[220px] rounded-lg overflow-hidden bg-gray-100">
                   <img
                     src={data.image}
-                    alt=""
-                    className="w-full h-[200px] object-contain sm:translate-x-8 group-hover:sm:translate-x-16 duration-700"
+                    alt={data.name || "Machinery Image"}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
-                <div className="space-y-2">
-                  <h1 className="text-primary font-semibold">{data.name}</h1>
-                  <div className="flex justify-between items-center text-xl font-semibold">
-                    <p>${data.price}/Day</p>
+
+                {/* Text Section */}
+                <div className="mt-4 text-center space-y-1">
+                  <h1 className="text-primary font-bold text-lg">{data.name || "Unnamed Machinery"}</h1>
+                  <div className="mt-2 text-sm font-semibold">
+                    ${data.price}/Day
                   </div>
                 </div>
-                <p className="text-xl font-semibold absolute top-0 left-3">
-                  12Km
-                </p>
               </div>
             ))}
           </div>
         </div>
+
         {/* End of car listing */}
         <div className="grid place-items-center mt-8">
           <button data-aos="fade-up" className="button-outline">

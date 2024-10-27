@@ -1,5 +1,5 @@
 import React from "react";
-import Belduz from "../../assets/belduz.png";
+import crane from "../../assets/crane.png";
 
 const About = () => {
   return (
@@ -8,13 +8,13 @@ const About = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center">
           <div data-aos="slide-right" data-aos-duration="1500">
             <img
-              src={Belduz}
+              src={crane}
               alt=""
-              className="sm:scale-125 sm:-translate-x-11 max-h-[500px] drop-shadow-[2px_10px_6px_rgba(0,0,0,0.50)]"
+              className="sm:scale-125 sm:-translate-x-11 max-h-[450px] drop-shadow-[2px_10px_6px_rgba(0,0,0,0.50)]"
             />
           </div>
           <div>
-            <div className="space-y-5 sm:p-16 pb-6">
+            <div className="space-y-3 sm:p-16 pb-6">
               <h1
                 data-aos="fade-up"
                 className="text-3xl sm:text-4xl font-bold font-serif"
@@ -22,12 +22,10 @@ const About = () => {
                 About us
               </h1>
               <p data-aos="fade-up" className="leading-8 tracking-wide">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Aspernatur, magnam! Tenetur odio quo et maxime?
+                At Al Memar, our mission is to deliver superior construction and trading services that exceed client expectations. 
               </p>
               <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-                tempora.
+              We strive to foster long-lasting relationships grounded in integrity and reliability, ensuring that every project reflects our dedication to excellence.
               </p>
               <button data-aos="fade-up" className="button-outline">
                 Get Started

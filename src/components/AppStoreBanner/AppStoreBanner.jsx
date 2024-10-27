@@ -24,29 +24,29 @@ const AppStoreBanner = () => {
               data-aos="fade-up"
               className="text-2xl text-center sm:text-4xl font-semibold font-serif"
             >
-              Get Started with our app
+              {/* Get Started with our app */}
             </h1>
             <p data-aos="fade-up" className="text-center sm:px-20">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-              magnam harum accusantium odit?
+              {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              magnam harum accusantium odit? */}
             </p>
             <div
               data-aos="fade-up"
               className="flex flex-wrap justify-center items-center gap-4"
             >
               <a href="#">
-                <img
+                {/* <img
                   src={PlayStoreImg}
                   alt=""
                   className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
-                />
+                /> */}
               </a>
               <a href="#">
-                <img
+                {/* <img
                   src={AppStoreImg}
                   alt=""
                   className="max-w-[150px] sm:max-w-[120px] md:max-w-[200px]"
-                />
+                /> */}
               </a>
             </div>
           </div>

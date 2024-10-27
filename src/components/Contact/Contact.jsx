@@ -12,8 +12,8 @@ const Contact = () => {
                 Let's collaborate on your upcoming Al Memar Group venture
               </h1>
               <p className="text-gray-400">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Exercitationem necessitatibus quasi et vel,{" "}
+                {/* Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Exercitationem necessitatibus quasi et vel,{" "} */}
               </p>
             </div>
             <div className="sm:grid sm:place-items-center">

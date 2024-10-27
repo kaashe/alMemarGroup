@@ -37,8 +37,7 @@ const Footer = () => {
               Al Memar Group
             </h1>
             <p className="text-sm">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Possimus, voluptate.{" "}
+            Al Memar Trading & Contracting Company has been a prominent player in the construction of buildings, homes, and residential projects since its founding in 1975.
             </p>
             <br />
             <div className="flex items-center gap-3">
