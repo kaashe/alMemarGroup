@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 // import carPng from "../../assets/car.png";
 import exuator from "../../assets/exuaPort.png";
+import crane from "../../assets/crane.png";
 import AOS from "aos";
 
 const Hero = ({ theme }) => {
@@ -18,7 +19,7 @@ const Hero = ({ theme }) => {
             className="order-1 sm:order-2"
           >
             <img
-              src={theme === "dark" ? exuator : exuator}
+              src={theme === "dark" ? crane : crane}
               alt=""
               className="sm:scale-125 relative -z-10 max-h-[400px] drop-shadow-[2px_20px_6px_rgba(0,0,0,0.50)]"
             />
@@ -42,7 +43,7 @@ const Hero = ({ theme }) => {
               onClick={() => {
                 AOS.refreshHard();
               }}
-              className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-black"
+              className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-white"
             >
               Get Started
             </button>

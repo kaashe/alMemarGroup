@@ -1,51 +1,32 @@
 import React from "react";
 // import whiteCar from "../../assets/white-car.png"  ;
-import Zee1 from "../../assets/zee1.jpg";
-import Jcb from "../../assets/jcb.png";
-import crane from "../../assets/crane.png";
+import Const1 from "../../assets/const1.jpg";
+import Const2 from "../../assets/const2.jpg";
+import Const3 from "../../assets/const3.jpg";
 import excuator from "../../assets/excuator.jpg";
 import clipart from "../../assets/belduz.png";
-import forkfilt from "../../assets/forkfilt.png";
-const carList = [
+const constructionList = [
   {
-    name: "JCB & Telehandler",
+    name: "Construction Site 1",
     price: 100,
-    image: Jcb,
+    image: Const1,
     aosDelay: "0",
   },
   {
-    name: "Mobile Crane",
+    name: "Construction Site 2",
     price: 140,
-    image: crane,
+    image: Const3,
     aosDelay: "500",
   },
   {
-    name: "Dumper Truck",
+    name: "Construction Site 3",
     price: 100,
-    image: Zee1,
-    aosDelay: "1000",
-  },
-  {
-    name: "Excuator",
-    price: 100,
-    image: excuator,
-    aosDelay: "1000",
-  },
-  {
-    name: "Back Hoe",
-    price: 100,
-    image: clipart,
-    aosDelay: "1000",
-  },
-  {
-    name: "Forklift ",
-    price: 100,
-    image: forkfilt,
+    image: Const2,
     aosDelay: "1000",
   },
 ];
 
-const CarList = () => {
+const ConstrunctionList = () => {
   return (
     <div className="pb-24">
       <div className="container">
@@ -54,14 +35,14 @@ const CarList = () => {
           data-aos="fade-up"
           className="text-3xl sm:text-4xl font-semibold font-serif mb-3"
         >
-          Heavy Machinery
+          Construction
         </h1>
         <p data-aos="fade-up" aos-delay="400" className="text-sm pb-10">
-          Our comprehensive range of heavy machinery and skilled operators is tailored to meet the demands of any construction project, from earthmoving to demolition. We prioritize reliability, safety, and efficiency to ensure your project runs smoothly from start to finish.
+          our experienced team delivers a full range of construction services, handling projects from site preparation to building completion with unmatched precision and expertise
         </p>
         <div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-            {carList?.map((data, index) => (
+            {constructionList?.map((data, index) => (
               <div
                 key={index}
                 data-aos="fade-up"
@@ -91,7 +72,7 @@ const CarList = () => {
 
         {/* End of car listing */}
         <div className="grid place-items-center mt-8">
-          <button data-aos="fade-up" className="button-outline">
+          <button data-aos="fade-up" className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-white">
             Get Started
           </button>
         </div>
@@ -100,4 +81,6 @@ const CarList = () => {
   );
 };
 
-export default CarList;
+
+
+export default ConstrunctionList

@@ -12,6 +12,7 @@ import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
 import Contact from "./components/Contact/Contact";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
+import ConstrunctionList from "./components/CarList/ConstrunctionList";
 
 const App = () => {
   // dark mode start
@@ -47,6 +48,7 @@ const App = () => {
       <About />
       <Services />
       <CarList />
+      <ConstrunctionList />
       <Testimonial />
       <AppStoreBanner />
       <Contact />

@@ -13,17 +13,17 @@ const ResponsiveMenu = ({ showMenu }) => {
     >
       <div className="card">
         <div className="flex items-center justify-start gap-3">
-          <FaUserCircle size={50} />
-          <div>
+          {/* <FaUserCircle size={50} /> */}
+          {/* <div>
             <h1>Hello User</h1>
             <h1 className="text-sm text-slate-500">Premium user</h1>
-          </div>
+          </div> */}
         </div>
         <nav className="mt-12">
           <ul className="space-y-4 text-xl">
             {Navlinks.map((data) => (
               <li>
-                <a href={data.link} className="mb-5 inline-block">
+                <a href={data.link} className="mb-5 inline-block font-sans">
                   {data.name}
                 </a>
               </li>
@@ -33,7 +33,7 @@ const ResponsiveMenu = ({ showMenu }) => {
       </div>
       <div className="footer">
         <h1>
-          Made with ❤ by <a href="https://dilshad-ahmed.github.io/">Dilshad</a>{" "}
+          Made with ❤ by <a href="https://wolves-pack-4yv8.vercel.app/">WolvesPack</a>{" "}
         </h1>
       </div>
     </div>

@@ -34,7 +34,8 @@ const Navbar = ({ theme, setTheme }) => {
         <div className="flex justify-between items-center">
           {/* Brand Name */}
           <div>
-            <span className="text-2xl font-extrabold font-serif tracking-wide text-[#EA9F00]">
+            <span className="text-2xl font-extrabold font-serif tracking-wide text-[#EA9F00]"
+            >
             Al Memar Group
             </span>
           </div>

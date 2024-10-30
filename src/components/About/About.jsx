@@ -1,6 +1,6 @@
 import React from "react";
 import crane from "../../assets/crane.png";
-
+import exuator from "../../assets/exuaPort.png";
 const About = () => {
   return (
     <div className="dark:bg-dark bg-slate-100 sm:min-h-[600px] sm:grid sm:place-items-center duration-300">
@@ -8,9 +8,9 @@ const About = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 place-items-center">
           <div data-aos="slide-right" data-aos-duration="1500">
             <img
-              src={crane}
+              src={exuator}
               alt=""
-              className="sm:scale-125 sm:-translate-x-11 max-h-[450px] drop-shadow-[2px_10px_6px_rgba(0,0,0,0.50)]"
+              className="sm:scale-125 sm:-translate-x-11 max-h-[450px] "
             />
           </div>
           <div>
@@ -22,12 +22,10 @@ const About = () => {
                 About us
               </h1>
               <p data-aos="fade-up" className="leading-8 tracking-wide">
-                At Al Memar, our mission is to deliver superior construction and trading services that exceed client expectations. 
+                Al Memar Trading and Contracting Co, excels in the realm of excavators and deep excavations, showcasing unparalleled expertise and innovation. Our commitment to precision and safety in deep excavation projects sets us apart, ensuring efficient and reliable results every time. We harness advanced technology and skilled professionals to tackle even the most challenging projects, reflecting our dedication to excellence and client satisfaction. Trust us to deliver outstanding performance and value in every excavation endeavor.
               </p>
-              <p data-aos="fade-up">
-              We strive to foster long-lasting relationships grounded in integrity and reliability, ensuring that every project reflects our dedication to excellence.
-              </p>
-              <button data-aos="fade-up" className="button-outline">
+
+              <button data-aos="fade-up" className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-white">
                 Get Started
               </button>
             </div>
