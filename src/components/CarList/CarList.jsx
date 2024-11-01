@@ -88,13 +88,6 @@ const CarList = () => {
             ))}
           </div>
         </div>
-
-        {/* End of car listing */}
-        <div className="grid place-items-center mt-8">
-          <button data-aos="fade-up" className="button-outline">
-            Get Started
-          </button>
-        </div>
       </div>
     </div>
   );

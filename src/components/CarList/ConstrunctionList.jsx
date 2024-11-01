@@ -3,8 +3,6 @@ import React from "react";
 import Const1 from "../../assets/const1.jpg";
 import Const2 from "../../assets/const2.jpg";
 import Const3 from "../../assets/const3.jpg";
-import excuator from "../../assets/excuator.jpg";
-import clipart from "../../assets/belduz.png";
 const constructionList = [
   {
     name: "Construction Site 1",
@@ -68,13 +66,6 @@ const ConstrunctionList = () => {
               </div>
             ))}
           </div>
-        </div>
-
-        {/* End of car listing */}
-        <div className="grid place-items-center mt-8">
-          <button data-aos="fade-up" className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-white">
-            Get Started
-          </button>
         </div>
       </div>
     </div>
