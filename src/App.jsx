@@ -50,7 +50,7 @@ const App = () => {
       <ConstrunctionList />
       <CarList />
       <Testimonial />
-      <AppStoreBanner />
+      {/* <AppStoreBanner /> */}
       <Contact />
       <Footer />
     </div>
