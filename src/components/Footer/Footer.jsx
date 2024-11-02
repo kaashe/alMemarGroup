@@ -38,13 +38,8 @@ const Footer = () => {
               Al Memar Group
             </h1>
             <p className="text-sm">
-            Al Memar Trading & Contracting Company has been a prominent player in the construction of buildings, homes, and residential projects since its founding in 1975.
+              Al Memar Trading & Contracting Company has been a prominent player in the construction of buildings, homes, and residential projects since its founding in 1975.
             </p>
-            <br />
-            <div className="flex items-center gap-3">
-              <FaLocationArrow />
-              <p>Cr No : 1094 | Doha Qatar</p>
-            </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
               <p>+974 77172141 +974 55828609</p>
@@ -53,9 +48,13 @@ const Footer = () => {
               <FaEnvelope />
               <p>support@almemargroup.com</p>
             </div>
+            <div className="flex items-center gap-3">
+              <FaLocationArrow />
+              <p>Cr No : 1094 | Doha Qatar</p>
+            </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">
-            <a href="#">
+              <a href="#">
                 <FaWhatsapp className="text-3xl hover:text-primary duration-300" />
               </a>
               <a href="#">
@@ -74,16 +73,15 @@ const Footer = () => {
             <div className="">
               <div className="py-8 px-4 ">
                 <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Important Links
+                  CEO & Contractor
                 </h1>
-                <ul className={`flex flex-col gap-3`}>
-                  {FooterLinks.map((link) => (
-                    <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-500 dark:text-gray-200">
-                      <span>&#11162;</span>
-                      <span>{link.title}</span>
-                    </li>
-                  ))}
-                </ul>
+                <p className="text-lg">
+                  Essa Khan
+                </p>
+                <div className="flex items-center gap-3 mt-3">
+                  <FaMobileAlt />
+                  <p>+974 5555 7137</p>
+                </div>
               </div>
             </div>
             {/* <div className="">
@@ -108,10 +106,10 @@ const Footer = () => {
                 </h1>
                 {/* <ul className="list-disc list-inside"> */}
                 <ul className="flex flex-col gap-3">
-                    <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-500 dark:text-gray-200">
-                      <span>&#11162;</span>
-                      <span>{"Doha, Qatar"}</span>
-                    </li>
+                  <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-500 dark:text-gray-200">
+                    <span>&#11162;</span>
+                    <span>{"Doha, Qatar"}</span>
+                  </li>
                 </ul>
               </div>
             </div>
