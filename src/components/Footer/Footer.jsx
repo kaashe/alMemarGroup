@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  FaEnvelope,
   FaFacebook,
   FaInstagram,
   FaLinkedin,
@@ -47,6 +48,10 @@ const Footer = () => {
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
               <p>+974 77172141 +974 55828609</p>
+            </div>
+            <div className="flex items-center gap-3 mt-3">
+              <FaEnvelope />
+              <p>support@almemargroup.com</p>
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">

@@ -49,7 +49,7 @@ const App = () => {
       <Services />
       <ConstrunctionList />
       <CarList />
-      <Testimonial />
+      {/* <Testimonial /> */}
       {/* <AppStoreBanner /> */}
       <Contact />
       <Footer />
