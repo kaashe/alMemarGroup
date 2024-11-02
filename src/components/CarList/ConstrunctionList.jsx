@@ -3,21 +3,28 @@ import React from "react";
 import Const1 from "../../assets/const1.jpg";
 import Const2 from "../../assets/const2.jpg";
 import Const3 from "../../assets/const3.jpg";
+import constPre from "../../assets/constPre.jpg";
 const constructionList = [
   {
-    name: "Construction Site 1",
+    name: "Under Construction",
+    price: 100,
+    image: constPre,
+    aosDelay: "1000",
+  },
+  {
+    name: "Front View",
     price: 100,
     image: Const1,
     aosDelay: "0",
   },
   {
-    name: "Construction Site 2",
+    name: "Internal View",
     price: 140,
     image: Const3,
     aosDelay: "500",
   },
   {
-    name: "Construction Site 3",
+    name: "Side View",
     price: 100,
     image: Const2,
     aosDelay: "1000",

@@ -35,8 +35,7 @@ const Testimonial = () => {
               What Our Clients Say About Us
             </p>
             <p data-aos="fade-up" className="text-center sm:px-44">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis iure consectetur tempora amet.
+            Working with Almemar Group has transformed our projects. Their expertise, reliability, and commitment to quality have made them an invaluable partner. From start to finish, they exceed our expectations every time.
             </p>
           </div>
 
