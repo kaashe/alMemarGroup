@@ -26,13 +26,13 @@ const carList = [
     aosDelay: "1000",
   },
   {
-    name: "Excuator",
+    name: "Excavator", 
     price: 100,
     image: excuator,
     aosDelay: "1000",
   },
   {
-    name: "Back Hoe",
+    name: "Back Hoe Loader",
     price: 100,
     image: clipart,
     aosDelay: "1000",
