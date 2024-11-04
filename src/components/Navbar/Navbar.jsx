@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { BiSolidSun, BiSolidMoon } from "react-icons/bi";
 import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
+import logo1 from "../../assets/1.png";
+import logo2 from "../../assets/2.png";
 
 export const Navlinks = [
   {
@@ -29,14 +31,18 @@ const Navbar = ({ theme, setTheme }) => {
   };
 
   return (
-    <div className="relative z-10 shadow-md w-full dark:bg-black dark:text-white duration-300">
+    <div className="relative z-10 w-full dark:bg-black dark:text-white duration-300">
       <div className="container py-2 md:py-0">
         <div className="flex justify-between items-center">
           {/* Brand Name */}
           <div>
             <span className="text-2xl font-extrabold font-serif tracking-wide text-[#EA9F00]"
             >
-            Al Memar Group
+             <img
+              src={theme === "dark" ? logo2 : logo1}
+              alt=""
+              className="sm:scale-125 relative -z-10 max-w-[150px] "
+            />
             </span>
           </div>
           {/* Desktop Navbar */}
