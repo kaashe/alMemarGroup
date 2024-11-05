@@ -8,6 +8,7 @@ import {
   FaMobileAlt,
   FaWhatsapp,
 } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
 
 const FooterLinks = [
   {
@@ -68,50 +69,20 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          {/* Links */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 col-span-2 md:pl-10 ">
-            <div className="">
-              <div className="py-8 px-4 ">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  CEO & Contractor
-                </h1>
-                <p className="text-lg">
-                  Essa Khan
-                </p>
-                <div className="flex items-center gap-3 mt-3">
-                  <FaMobileAlt />
-                  <p>+974 5555 7137</p>
-                </div>
-              </div>
+          <div className=" py-8 px-4 ">
+            <h5 className="sm:text-xl text-1xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
+            CEO & Contractor
+            </h5>
+            <p className="text-xl">
+             Essa Khan
+            </p>
+            <div className="flex items-center gap-3 mt-3">
+              <FaMobileAlt />
+              <p>+974 5555 7137</p>
             </div>
-            {/* <div className="">
-              <div className="py-8 px-4 ">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Links
-                </h1>
-                <ul className="flex flex-col gap-3">
-                  {FooterLinks.map((link) => (
-                    <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-500 dark:text-gray-200">
-                      <span>&#11162;</span>
-                      <span>{link.title}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div> */}
-            <div className="">
-              <div className="py-8 px-4 ">
-                <h1 className="sm:text-xl text-xl font-bold sm:text-left text-justify mb-3">
-                  Location
-                </h1>
-                {/* <ul className="list-disc list-inside"> */}
-                <ul className="flex flex-col gap-3">
-                  <li className="cursor-pointer hover:translate-x-1 duration-300 hover:!text-primary space-x-1 text-gray-500 dark:text-gray-200">
-                    <span>&#11162;</span>
-                    <span>{"Doha, Qatar"}</span>
-                  </li>
-                </ul>
-              </div>
+            <div className="flex items-center gap-3 mt-3">
+              <FaLocationDot />
+              <p>Doha, Qatar</p>
             </div>
           </div>
         </div>
