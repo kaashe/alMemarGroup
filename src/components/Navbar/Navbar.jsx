@@ -4,6 +4,7 @@ import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
 import logo1 from "../../assets/1.png";
 import logo2 from "../../assets/2.png";
+import lightLogo from "../../assets/3.png";
 
 export const Navlinks = [
   {
@@ -39,9 +40,9 @@ const Navbar = ({ theme, setTheme }) => {
             <span className="text-2xl font-extrabold font-serif tracking-wide text-[#EA9F00]"
             >
              <img
-              src={theme === "dark" ? logo2 : logo1}
+              src={theme === "dark" ? lightLogo : lightLogo}
               alt=""
-              className="sm:scale-125 relative -z-10 max-w-[150px] "
+              className="sm:scale-125 relative -z-10 max-w-[100px] "
             />
             </span>
           </div>
