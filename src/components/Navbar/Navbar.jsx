@@ -4,7 +4,7 @@ import { HiMenuAlt3, HiMenuAlt1 } from "react-icons/hi";
 import ResponsiveMenu from "./ResponsiveMenu";
 import logo1 from "../../assets/1.png";
 import logo2 from "../../assets/2.png";
-import lightLogo from "../../assets/3.png";
+import lightLogo from "../../assets/craneLogo.png";
 
 export const Navlinks = [
   {
