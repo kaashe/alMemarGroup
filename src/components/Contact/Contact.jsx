@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import emailjs from 'emailjs-com';
+import { FaSpinner } from "react-icons/fa";
 const Contact = () => {
   const [formData, setFormData] = useState({
     from_name: '',
@@ -7,6 +8,7 @@ const Contact = () => {
     message: '',
   });
   const [isSent, setIsSent] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -15,15 +17,26 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setIsLoading(true);
+    // Add multiple recipient emails
+    const templateParams = {
+      ...formData,
+      to_email: 'support@almemargroup.com, bashir@almemargroup.com, essa@almemargroup.com', // Comma-separated emails
+    };
 
-    emailjs?.send('service_703z7pn', 'template_h4fyqvj', formData, 'hNsnaOK2bPqEaAM0N')
+    emailjs
+      .send('service_703z7pn', 'template_h4fyqvj', templateParams, 'hNsnaOK2bPqEaAM0N')
       .then((response) => {
         console.log('SUCCESS!', response?.status, response?.text);
         setIsSent(true);
-        setFormData({ name: '', email: '', message: '' }); // Reset the form
-      }, (err) => {
+        setFormData({ from_name: '', email: '', message: '' }); // Reset the form
+      })
+      .catch((err) => {
         console.error('FAILED...', err);
+      }).finally(() => {
+        setIsLoading(false);
       });
+
   };
   return (
     <>
@@ -70,9 +83,17 @@ const Contact = () => {
                 />
                 <button
                   type="submit"
-                  className="w-full inline-block font-semibold py-2 bg-primary text-white hover:bg-primary/80 duration-200 tracking-widest uppercase rounded"
+                  className={`w-full inline-block font-semibold py-2 text-white hover:bg-primary/80 duration-200 tracking-widest uppercase rounded ${isLoading ? "bg-gray-500 cursor-not-allowed" : "bg-primary"
+                    }`}
+                  disabled={isLoading} // Disable button during loading
                 >
-                  Send
+                  {isLoading ? (
+                    <span className="flex items-center justify-center">
+                      <FaSpinner className="animate-spin mr-2" /> Sending...
+                    </span>
+                  ) : (
+                    "Send"
+                  )}
                 </button>
                 {isSent && <p className="text-green-500">Message sent successfully!</p>}
               </form>
