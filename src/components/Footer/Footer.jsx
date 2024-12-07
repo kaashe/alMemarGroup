@@ -93,7 +93,7 @@ const Footer = () => {
             <div className="flex items-center gap-3 mt-3">
               <FaWhatsapp className="text-[#128C7E]" />
               <p className="text-[#128C7E]">
-                <a href="https://wa.me/97455557137?text=Hello!%20You've%20reached%20Essa%20Khan.%20Thank%20you%20for%20getting%20in%20touch." target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+                <a href="https://wa.me/97455557137?text=Hi%20Essa%20Khan!" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
               </p>
             </div>
             <div className="flex items-center gap-3 mt-3">
@@ -119,7 +119,9 @@ const Footer = () => {
             <div className="flex items-center gap-3 mt-3">
               <FaWhatsapp className="text-[#128C7E]" />
               <p className="text-[#128C7E]">
-                <a href="https://wa.me/97477172141?text=Hello!%20You've%20reached%20Bashir%20Rehman.%20Thank%20you%20for%20getting%20in%20touch." target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+                <a href="https://wa.me/97477172141?text=Hi%20Bashir%20Rehman!
+
+" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
               </p>
             </div>
             <div className="flex items-center gap-3 mt-3">
