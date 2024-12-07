@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
             <div className="flex items-center gap-3">
               <FaFax />
-              <p>PO Box Tel/Fax +97444421891</p>
+              <p>PO Box Tel/Fax +974 4442 1891</p>
             </div>
             <div className="flex items-center gap-3">
               <FaLocationDot />
@@ -67,14 +67,48 @@ const Footer = () => {
               <a href="#">
                 <FaInstagram className="text-3xl hover:text-primary duration-300" />
               </a>
-              <a href="#">
-                <FaFacebook className="text-3xl hover:text-primary duration-300" />
+              <a target="_blank" href="https://www.facebook.com/AlMemarGroup?mibextid=LQQJ4d&rdid=g378GLkgTZ8tt0Dm&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F15cMxLnCqz%2F%3Fmibextid%3DLQQJ4d">
+                <FaFacebook className="text-[#0866FF] text-3xl hover:text-primary duration-300" />
               </a>
-              <a href="#">
-                <FaLinkedin className="text-3xl hover:text-primary duration-300" />
+              <a target="_blank" href="https://www.linkedin.com/in/al-memar-trading-and-contracting-co-2a98b3336/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                <FaLinkedin className="text-[#0A66C2] text-3xl hover:text-primary duration-300" />
               </a>
             </div>
           </div>
+          {/* <div className=" py-8 px-4 ">
+            <h5 className="sm:text-xl text-1xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
+              Sales & Purchasing Manager
+            </h5>
+            <p className="text-xl">
+              Engr. Bashir Rehman
+            </p>
+            <p className="text-sm">
+              Engr. Bashir Rehman is a highly skilled & results-driven Purchasing Manager with extensive experience in procurement and supply chain management. With a sharp focus on cost optimization and operational efficiency, he excels in sourcing high-quality materials, equipment’s , & services while ensuring timely delivery and adherence to budgetary constraints.
+
+            </p>
+            <div className="flex items-center gap-3 mt-3">
+              <FaMobileAlt />
+              <p>+974 7717 2141   |  +974 5582 8609</p>
+            </div>
+            <div className="flex items-center gap-3 mt-3">
+              <FaWhatsapp className="text-[#128C7E]" />
+              <p className="text-[#128C7E]">
+                <a href="https://wa.me/97477172141?text=Hi%20Bashir%20Rehman!" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+              </p>
+            </div>
+            <div className="flex items-center gap-3 mt-3">
+              <FaLocationDot />
+              <p>Doha, Qatar</p>
+            </div>
+            <div className="flex items-center gap-3 mt-6">
+              <a target="_blank" href="https://www.facebook.com/Bashir.lala.PSF">
+                <FaFacebook className="text-[#0866FF] text-3xl hover:text-primary duration-300" />
+              </a>
+              <a target="_blank" href="https://www.linkedin.com/in/prince-bashir/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                <FaLinkedin className="text-[#0A66C2] text-3xl hover:text-primary duration-300" />
+              </a>
+            </div>
+          </div> */}
           <div className=" py-8 px-4 ">
             <h5 className="sm:text-xl text-1xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
               CEO & Contractor
@@ -103,7 +137,7 @@ const Footer = () => {
           </div>
           <div className=" py-8 px-4 ">
             <h5 className="sm:text-xl text-1xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
-              Purchasing Manager
+              Sales & Purchase Manager
             </h5>
             <p className="text-xl">
               Engr. Bashir Rehman
@@ -119,14 +153,20 @@ const Footer = () => {
             <div className="flex items-center gap-3 mt-3">
               <FaWhatsapp className="text-[#128C7E]" />
               <p className="text-[#128C7E]">
-                <a href="https://wa.me/97477172141?text=Hi%20Bashir%20Rehman!
-
-" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+                <a href="https://wa.me/97477172141?text=Hi%20Bashir%20Rehman!" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
               </p>
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaLocationDot />
               <p>Doha, Qatar</p>
+            </div>
+            <div className="flex items-center gap-3 mt-6">
+              <a target="_blank" href="https://www.facebook.com/Bashir.lala.PSF">
+                <FaFacebook className="text-[#0866FF] text-3xl hover:text-primary duration-300" />
+              </a>
+              <a target="_blank" href="https://www.linkedin.com/in/prince-bashir/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">
+                <FaLinkedin className="text-[#0A66C2] text-3xl hover:text-primary duration-300" />
+              </a>
             </div>
           </div>
         </div>
