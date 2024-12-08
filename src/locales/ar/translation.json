@@ -1,0 +1,12 @@
+{
+    "navbar": {
+      "Home": "الرئيسية",
+      "About": "من نحن",
+      "Bookings": "الحجوزات"
+    },
+    "hero":{
+        "effortless":"جهد",
+        "Powering Industries":"صناعات الطاقة"
+    }
+  }
+  

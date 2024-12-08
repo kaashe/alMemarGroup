@@ -3,8 +3,10 @@ import React, { useEffect, useState } from "react";
 import exuator from "../../assets/exuaPort.png";
 import crane from "../../assets/crane.png";
 import AOS from "aos";
+import { useTranslation } from "react-i18next";
 
 const Hero = ({ theme }) => {
+  const { t } = useTranslation();
   useEffect(() => {
     AOS.refresh();
   });
@@ -26,14 +28,14 @@ const Hero = ({ theme }) => {
           </div>
           <div className="space-y-5 order-2 sm:order-1 sm:pr-32 ">
             <p data-aos="fade-up" className="text-[#EA9F00] text-2xl font-serif">
-              Effortless
+              {t("hero.effortless")}
             </p>
             <h1
               data-aos="fade-up"
               data-aos-delay="600"
               className="text-5xl lg:text-7xl font-semibold font-serif"
             >
-               Powering industries
+               {t("hero.Powering Industries")}
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000">
             </p>

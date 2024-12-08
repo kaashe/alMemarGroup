@@ -1,0 +1,11 @@
+{
+    "navbar": {
+        "Home": "HOME",
+        "About": "ABOUT",
+        "Bookings": "BOOKINGS"
+    },
+    "hero": {
+        "effortless": "Effortless",
+        "Powering Industries":"Powering Industries"
+    }
+}

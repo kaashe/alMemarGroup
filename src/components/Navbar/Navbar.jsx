@@ -5,6 +5,8 @@ import ResponsiveMenu from "./ResponsiveMenu";
 import logo1 from "../../assets/1.png";
 import logo2 from "../../assets/2.png";
 import lightLogo from "../../assets/craneLogo.png";
+import { LanguageSwitcher } from "../../App";
+import { useTranslation } from "react-i18next";
 
 export const Navlinks = [
   {
@@ -26,11 +28,27 @@ export const Navlinks = [
 
 const Navbar = ({ theme, setTheme }) => {
   const [showMenu, setShowMenu] = useState(false);
-
+  const { t } = useTranslation();
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
-
+   const Navlinks = [
+    {
+      id: 1,
+      name: t("navbar.Home"),
+      link: "/#",
+    },
+    {
+      id: 3,
+      name: t("navbar.About"),
+      link: "/#about",
+    },
+    {
+      id: 4,
+      name: t("navbar.Bookings"),
+      link: "/#booking",
+    },
+  ];
   return (
     <div className="relative z-10 w-full dark:bg-black dark:text-white duration-300">
       <div className="container py-2 md:py-0">
@@ -59,6 +77,7 @@ const Navbar = ({ theme, setTheme }) => {
                   </a>
                 </li>
               ))}
+              {/* <LanguageSwitcher /> */}
               {/* Dark Mode Toggle */}
               {theme === "dark" ? (
                 <BiSolidSun
@@ -87,6 +106,7 @@ const Navbar = ({ theme, setTheme }) => {
                 className="text-2xl cursor-pointer"
               />
             )}
+            {/* <LanguageSwitcher /> */}
             {/* Mobile Menu Icon */}
             {showMenu ? (
               <HiMenuAlt1
