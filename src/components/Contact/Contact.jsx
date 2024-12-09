@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import emailjs from 'emailjs-com';
 import { FaSpinner } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 const Contact = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     from_name: '',
     email: '',
@@ -46,10 +48,10 @@ const Contact = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 bg-gray-800 py-8 px-6 rounded-lg shadow-lg">
             <div className="col-span-2 space-y-3">
               <h1 className="text-4xl sm:text-5xl font-bold text-white">
-                Let's collaborate on your upcoming Al Memar Group venture
+                {t("contact.heading")}
               </h1>
               <p className="text-gray-400">
-                {/* Add your description here */}
+                <p className="text-gray-400">{t("contact.description")}</p>
               </p>
             </div>
             <div className="sm:grid sm:place-items-center">
@@ -57,7 +59,7 @@ const Contact = () => {
                 <input
                   type="text"
                   name="from_name"
-                  placeholder="Your Name"
+                  placeholder={t("contact.form.namePlaceholder")}
                   value={formData.name}
                   onChange={handleChange}
                   required
@@ -66,7 +68,7 @@ const Contact = () => {
                 <input
                   type="email"
                   name="email"
-                  placeholder="Your Email"
+                  placeholder={t("contact.form.emailPlaceholder")}
                   value={formData.email}
                   onChange={handleChange}
                   required
@@ -74,7 +76,7 @@ const Contact = () => {
                 />
                 <textarea
                   name="message"
-                  placeholder="Services you need"
+                  placeholder={t("contact.form.messagePlaceholder")}
                   value={formData.message}
                   onChange={handleChange}
                   required
@@ -83,19 +85,24 @@ const Contact = () => {
                 />
                 <button
                   type="submit"
-                  className={`w-full inline-block font-semibold py-2 text-white hover:bg-primary/80 duration-200 tracking-widest uppercase rounded ${isLoading ? "bg-gray-500 cursor-not-allowed" : "bg-primary"
+                  className={`w-full inline-block font-semibold py-2 text-white hover:bg-primary/80 duration-200 tracking-widest uppercase rounded ${isLoading
+                    ? "bg-gray-500 cursor-not-allowed"
+                    : "bg-primary"
                     }`}
-                  disabled={isLoading} // Disable button during loading
+                  disabled={isLoading}
                 >
                   {isLoading ? (
                     <span className="flex items-center justify-center">
-                      <FaSpinner className="animate-spin mr-2" /> Sending...
+                      <FaSpinner className="animate-spin mr-2" />
+                      {t("contact.form.sending")}
                     </span>
                   ) : (
-                    "Send"
+                    t("contact.form.sendButton")
                   )}
                 </button>
-                {isSent && <p className="text-green-500">Message sent successfully!</p>}
+                {isSent && (
+                  <p className="text-green-500">{t("contact.form.successMessage")}</p>
+                )}
               </form>
             </div>
           </div>

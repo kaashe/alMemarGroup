@@ -32,7 +32,7 @@ const Navbar = ({ theme, setTheme }) => {
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
-   const Navlinks = [
+  const Navlinks = [
     {
       id: 1,
       name: t("navbar.Home"),
@@ -57,11 +57,11 @@ const Navbar = ({ theme, setTheme }) => {
           <div>
             <span className="text-2xl font-extrabold font-serif tracking-wide text-[#EA9F00]"
             >
-             <img
-              src={theme === "dark" ? lightLogo : lightLogo}
-              alt=""
-              className="sm:scale-125 relative -z-10 max-w-[100px] "
-            />
+              <img
+                src={theme === "dark" ? lightLogo : lightLogo}
+                alt=""
+                className="sm:scale-125 relative -z-10 max-w-[100px] "
+              />
             </span>
           </div>
           {/* Desktop Navbar */}
@@ -77,7 +77,7 @@ const Navbar = ({ theme, setTheme }) => {
                   </a>
                 </li>
               ))}
-              {/* <LanguageSwitcher /> */}
+              <LanguageSwitcher />
               {/* Dark Mode Toggle */}
               {theme === "dark" ? (
                 <BiSolidSun
@@ -106,7 +106,7 @@ const Navbar = ({ theme, setTheme }) => {
                 className="text-2xl cursor-pointer"
               />
             )}
-            {/* <LanguageSwitcher /> */}
+            <LanguageSwitcher />
             {/* Mobile Menu Icon */}
             {showMenu ? (
               <HiMenuAlt1

@@ -6,6 +6,117 @@
     },
     "hero": {
         "effortless": "Effortless",
-        "Powering Industries":"Powering Industries"
+        "Powering Industries": "Powering Industries",
+        "GetStarted": "Get Started"
+    },
+    "about": {
+        "title": "About us",
+        "description": "Al Memar Trading and Contracting Co, excels in the realm of excavators and deep excavations, showcasing unparalleled expertise and innovation. Our commitment to precision and safety in deep excavation projects sets us apart, ensuring efficient and reliable results every time. We harness advanced technology and skilled professionals to tackle even the most challenging projects, reflecting our dedication to excellence and client satisfaction. Trust us to deliver outstanding performance and value in every excavation endeavor.",
+        "button": "Get Started"
+    },
+    "services": {
+        "title": "Why Choose Us",
+        "items": [
+            {
+                "name": "Construction Division",
+                "description": "Construction Division specializes in delivering comprehensive construction solutions, from project planning and design to execution and management. With a focus on quality, safety, and efficiency, we ensure each project is built to the highest standards.",
+                "linkText": "Learn more"
+            },
+            {
+                "name": "Procurement Division",
+                "description": "Procurement Division streamlines the sourcing and acquisition of materials and equipment, ensuring timely and cost-effective support for all construction projects. Our team leverages a strong supplier network to maintain high standards and budget control across each phase of procurement.",
+                "linkText": "Learn more"
+            },
+            {
+                "name": "Excavation Work",
+                "description": "Almemar Group provides specialized excavation services, preparing sites with precision for foundations, utilities, and structural work. Our experienced team and advanced machinery ensure safe, efficient, and thorough excavation for all types of projects.",
+                "linkText": "Learn more"
+            },
+            {
+                "name": "Man Power Supply",
+                "description": "Offers reliable manpower supply services, providing skilled and qualified personnel to meet the labor demands of construction and industrial projects. Our team ensures efficient workforce solutions tailored to project requirements.",
+                "linkText": "Learn more"
+            },
+            {
+                "name": "Floor Coatings Specialist",
+                "description": "Provides expert floor coating services, delivering durable and high-quality finishes for industrial, commercial, and residential floors. Our coatings enhance surface protection, durability, and aesthetics to meet project-specific needs.",
+                "linkText": "Learn more"
+            },
+            {
+                "name": "Water Proofing Specialist",
+                "description": "Offers professional waterproofing services, protecting structures from water damage and ensuring longevity. Our expertise covers a range of solutions for roofs, basements, and other vulnerable areas, tailored to withstand harsh conditions.",
+                "linkText": "Learn more"
+            },
+            {
+                "name": "Interlock Brick Pavers",
+                "description": "Our team of experienced drivers brings skill and precision to every project, ensuring safe and timely delivery of results.",
+                "linkText": "Learn more"
+            }
+        ]
+    },
+    "constructionList": {
+        "heading": "Construction",
+        "description": "Our experienced team delivers a full range of construction services, handling projects from site preparation to building completion with unmatched precision and expertise",
+        "items": [
+            {
+                "name": "Under Construction"
+            },
+            {
+                "name": "Front View"
+            },
+            {
+                "name": "Internal View"
+            },
+            {
+                "name": "Side View"
+            }
+        ]
+    },
+    "carList": {
+        "heading": "Heavy Machinery",
+        "description": "Our comprehensive range of heavy machinery and skilled operators is tailored to meet the demands of any construction project, from earthmoving to demolition. We prioritize reliability, safety, and efficiency to ensure your project runs smoothly from start to finish.",
+        "items": [
+            {
+                "name": "JCB & Telehandler"
+            },
+            {
+                "name": "Mobile Crane"
+            },
+            {
+                "name": "Dumper Truck"
+            },
+            {
+                "name": "Excavator"
+            },
+            {
+                "name": "Back Hoe Loader"
+            },
+            {
+                "name": "Forklift"
+            }
+        ]
+    },
+    "contact": {
+        "heading": "Let's collaborate on your upcoming Al Memar Group venture",
+        "description": "Please provide your details and services you need. Our team will contact you soon.",
+        "form": {
+            "namePlaceholder": "Your Name",
+            "emailPlaceholder": "Your Email",
+            "messagePlaceholder": "Services you need",
+            "sendButton": "Send",
+            "sending": "Sending...",
+            "successMessage": "Message sent successfully!"
+        }
+    },
+    "footer": {
+        "conpanyBackground": "Founded in 1975, Al Memar Group is a distinguished and trusted name in the construction industry with decades of expertise in building residential villas, commercial buildings, and providing rental equipment solutions. Over the years, the group has built a solid reputation for delivering high-quality construction projects and offering reliable, cost-effective equipment rentals tailored to client needs. With a rich history of successful projects and a commitment to excellence, Al Memar Group has earned the trust of clients across various sectors. The company’s comprehensive services include villa and building construction, project management, and the provision of top-tier rental machinery, all backed by a deep understanding of industry standards and innovative construction practices.",
+        "crno": "Cr No : 1094 | Doha Qatar",
+        "pobox": "PO Box Tel/Fax +974 4442 1891",
+        "zone": "Zone 56, Street 995, Building 207, Office Bu Hamour",
+        "ceo": "CEO & Contractor",
+        "ceoIntro": "Engr. Essa Khan is a highly skilled and experienced construction engineer and contractor with a distinguished career spanning over 22 years. Since 2002, he has built a reputation for his exceptional technical knowledge, strategic project management, and commitment to delivering high-quality results in the construction industry.",
+        "whatsap": "Chat on WhatsApp",
+        "sales&purch": "Sales & Purchase Manager",
+        "salesIntro": "Engr. Bashir Rehman is a highly skilled & results-driven Purchasing Manager with extensive experience in procurement and supply chain management. With a sharp focus on cost optimization and operational efficiency, he excels in sourcing high-quality materials, equipment’s , & services while ensuring timely delivery and adherence to budgetary constraints."
     }
 }

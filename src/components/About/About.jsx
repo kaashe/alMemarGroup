@@ -1,7 +1,9 @@
 import React from "react";
 import crane from "../../assets/crane.png";
 import exuator from "../../assets/exuaPort.png";
+import { useTranslation } from "react-i18next";
 const About = () => {
+  const { t } = useTranslation();
   return (
     <div className="dark:bg-dark bg-slate-100 sm:min-h-[600px] sm:grid sm:place-items-center duration-300">
       <div className="container">
@@ -19,14 +21,14 @@ const About = () => {
                 data-aos="fade-up"
                 className="text-3xl sm:text-4xl font-bold font-serif"
               >
-                About us
+                {t("about.title")}
               </h1>
               <p data-aos="fade-up" className="leading-8 tracking-wide">
-                Al Memar Trading and Contracting Co, excels in the realm of excavators and deep excavations, showcasing unparalleled expertise and innovation. Our commitment to precision and safety in deep excavation projects sets us apart, ensuring efficient and reliable results every time. We harness advanced technology and skilled professionals to tackle even the most challenging projects, reflecting our dedication to excellence and client satisfaction. Trust us to deliver outstanding performance and value in every excavation endeavor.
+                {t("about.description")}
               </p>
 
               <button data-aos="fade-up" className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-white">
-                Get Started
+                {t("about.button")}
               </button>
             </div>
           </div>

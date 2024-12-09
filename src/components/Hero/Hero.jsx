@@ -35,7 +35,7 @@ const Hero = ({ theme }) => {
               data-aos-delay="600"
               className="text-5xl lg:text-7xl font-semibold font-serif"
             >
-               {t("hero.Powering Industries")}
+              {t("hero.Powering Industries")}
             </h1>
             <p data-aos="fade-up" data-aos-delay="1000">
             </p>
@@ -47,7 +47,7 @@ const Hero = ({ theme }) => {
               }}
               className="rounded-md bg-primary hover:bg-primary/80 transition duration-500 py-2 px-6 text-white"
             >
-              Get Started
+              {t("hero.GetStarted")}
             </button>
           </div>
         </div>
