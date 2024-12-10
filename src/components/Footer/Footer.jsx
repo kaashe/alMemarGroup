@@ -84,7 +84,7 @@ const Footer = () => {
               Engr. Essa Khan
             </p>
             <p className="text-sm">
-              {t('footer.ceoIntro')}
+              {/* {t('footer.ceoIntro')} */}
             </p>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
@@ -109,7 +109,7 @@ const Footer = () => {
               Engr. Bashir Rehman
             </p>
             <p className="text-sm">
-              {t('footer.salesIntro')}
+              {/* {t('footer.salesIntro')} */}
 
             </p>
             <div className="flex items-center gap-3 mt-3">

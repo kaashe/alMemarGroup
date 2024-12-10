@@ -14,6 +14,7 @@ import Contact from "./components/Contact/Contact";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
 import ConstrunctionList from "./components/CarList/ConstrunctionList";
+import MainBodies from "./components/MainBodies/MainBodies";
 
 
 export const LanguageSwitcher = () => {
@@ -80,16 +81,17 @@ const App = () => {
   return (
     <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
       <I18nextProvider i18n={i18n}>
-      <Navbar theme={theme} setTheme={setTheme} />
-      <Hero theme={theme} />
-      <About />
-      <Services />
-      <ConstrunctionList />
-      <CarList />
-      {/* <Testimonial /> */}
-      {/* <AppStoreBanner /> */}
-      <Contact />
-      <Footer />
+        <Navbar theme={theme} setTheme={setTheme} />
+        <Hero theme={theme} />
+        <About />
+        <Services />
+        <ConstrunctionList />
+        <CarList />
+        {/* <Testimonial /> */}
+        <MainBodies />
+        {/* <AppStoreBanner /> */}
+        <Contact />
+        <Footer />
       </I18nextProvider>
     </div>
   );

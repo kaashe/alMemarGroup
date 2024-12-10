@@ -109,7 +109,7 @@
         }
     },
     "footer": {
-        "conpanyBackground": "Founded in 1975, Al Memar Group is a distinguished and trusted name in the construction industry with decades of expertise in building residential villas, commercial buildings, and providing rental equipment solutions. Over the years, the group has built a solid reputation for delivering high-quality construction projects and offering reliable, cost-effective equipment rentals tailored to client needs. With a rich history of successful projects and a commitment to excellence, Al Memar Group has earned the trust of clients across various sectors. The company’s comprehensive services include villa and building construction, project management, and the provision of top-tier rental machinery, all backed by a deep understanding of industry standards and innovative construction practices.",
+        "conpanyBackground": "Established in 1975, Al Memar Group is a trusted leader in construction, specializing in residential villas, commercial buildings, and rental equipment solutions. Renowned for quality, reliability, and cost-effectiveness, we deliver excellence in project management, innovative construction, and top-tier machinery rentals. Decades of expertise have earned us the trust of clients across diverse sectors.",
         "crno": "Cr No : 1094 | Doha Qatar",
         "pobox": "PO Box Tel/Fax +974 4442 1891",
         "zone": "Zone 56, Street 995, Building 207, Office Bu Hamour",
@@ -117,6 +117,21 @@
         "ceoIntro": "Engr. Essa Khan is a highly skilled and experienced construction engineer and contractor with a distinguished career spanning over 22 years. Since 2002, he has built a reputation for his exceptional technical knowledge, strategic project management, and commitment to delivering high-quality results in the construction industry.",
         "whatsap": "Chat on WhatsApp",
         "sales&purch": "Sales & Purchase Manager",
-        "salesIntro": "Engr. Bashir Rehman is a highly skilled & results-driven Purchasing Manager with extensive experience in procurement and supply chain management. With a sharp focus on cost optimization and operational efficiency, he excels in sourcing high-quality materials, equipment’s , & services while ensuring timely delivery and adherence to budgetary constraints."
+        "salesIntro": "Engr. Bashir Rehman is a highly skilled & results-driven Purchasing Manager with extensive experience in procurement and supply chain management. With a sharp focus on cost optimization and operational efficiency, he excels in sourcing high-quality materials, equipment’s , services while ensuring timely delivery and adherence to budgetary constraints."
+    },
+    "mainBodies": {
+        "title": "Meet Our Team"
+    },
+    "team": {
+        "ceo": {
+            "name": "Engr. Essa Khan",
+            "designation": "CEO & Contractor",
+            "description": "Engr. Essa Khan is a highly skilled and experienced construction engineer and contractor with a distinguished career spanning over 22 years. Since 2002, he has built a reputation for his exceptional technical knowledge, strategic project management, and commitment to delivering high-quality results in the construction industry."
+        },
+        "purchaseManager": {
+            "name": "Engr. Bashir Rehman",
+            "designation": "Sales & Purchase Manager",
+            "description": "Engr. Bashir Rehman is a highly skilled & results-driven Purchasing Manager with extensive experience in procurement and supply chain management. With a sharp focus on cost optimization and operational efficiency, he excels in sourcing high-quality materials, equipment’s , & services while ensuring timely delivery and adherence to budgetary constraints."
+        }
     }
 }
