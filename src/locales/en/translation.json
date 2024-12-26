@@ -133,5 +133,13 @@
             "designation": "Sales & Purchase Manager",
             "description": "Engr. Bashir Rehman is a highly skilled & results-driven Purchasing Manager with extensive experience in procurement and supply chain management. With a sharp focus on cost optimization and operational efficiency, he excels in sourcing high-quality materials, equipment’s , & services while ensuring timely delivery and adherence to budgetary constraints."
         }
+    },
+    "jointVenture": {
+        "heading": "Our Joint Ventures",
+        "description": "We are proud to collaborate with:",
+        "links": {
+            "casht": "www.casht.edu.pk",
+            "acme": "www.acme.edu.pk"
+        }
     }
 }

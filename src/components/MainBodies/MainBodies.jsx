@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { useTranslation } from 'react-i18next';
-import yousuf from "../../assets/yousuf.jpeg";
+import essa from "../../assets/yousuf.jpeg";
 const MainBodies = () => {
     const { t } = useTranslation();
 
@@ -13,7 +13,7 @@ const MainBodies = () => {
             nameKey: 'team.ceo.name',
             designationKey: 'team.ceo.designation',
             descriptionKey: 'team.ceo.description',
-            image: yousuf, //
+            image: essa, //
         },
         {
             id: 3,

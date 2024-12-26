@@ -15,6 +15,7 @@ import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
 import ConstrunctionList from "./components/CarList/ConstrunctionList";
 import MainBodies from "./components/MainBodies/MainBodies";
+import JointVenture from "./components/JV/JointVenture";
 
 
 export const LanguageSwitcher = () => {
@@ -84,6 +85,7 @@ const App = () => {
         <Navbar theme={theme} setTheme={setTheme} />
         <Hero theme={theme} />
         <About />
+        <JointVenture />
         <Services />
         <ConstrunctionList />
         <CarList />
