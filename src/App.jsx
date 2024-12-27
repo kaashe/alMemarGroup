@@ -85,7 +85,6 @@ const App = () => {
         <Navbar theme={theme} setTheme={setTheme} />
         <Hero theme={theme} />
         <About />
-        <JointVenture />
         <Services />
         <ConstrunctionList />
         <CarList />
@@ -93,6 +92,7 @@ const App = () => {
         <MainBodies />
         {/* <AppStoreBanner /> */}
         <Contact />
+        <JointVenture />
         <Footer />
       </I18nextProvider>
     </div>
