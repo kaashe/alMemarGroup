@@ -117,6 +117,10 @@ const Footer = () => {
               <p>+974 7717 2141   |  +974 5582 8609</p>
             </div>
             <div className="flex items-center gap-3 mt-3">
+              <FaEnvelope />
+              <p>bashir@almemargroup.com</p>
+            </div>
+            <div className="flex items-center gap-3 mt-3">
               <FaWhatsapp className="text-[#128C7E]" />
               <p className="text-[#128C7E]">
                 <a href="https://wa.me/97477172141?text=Hi%20Bashir%20Rehman!" target="_blank" rel="noopener noreferrer">{t('footer.whatsap')}</a>
